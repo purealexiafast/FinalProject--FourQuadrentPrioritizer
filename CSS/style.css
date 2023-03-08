@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(107, 112, 92);
+}
+
+
+body {
+    background-image: linear-gradient(rgb(250, 237, 205), rgb(204, 213, 174));
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+ul {
+    justify-content: end;
+}
+
+.nav-bar-icon {
+    color: rgb(107, 112, 92);
+}
+
+.nav-bar-icon:hover {
+    background-image: linear-gradient(rgb(233, 237, 201), rgb(212, 163, 115));
+}
+
+
+
+#sign-up-button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(107, 112, 92);
+    background-image: linear-gradient(rgb(233, 237, 201), rgb(212, 163, 115));
+    color: rgb(107, 112, 92);
+    margin-left: 15%;
+}

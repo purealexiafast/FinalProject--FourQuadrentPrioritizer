@@ -7,28 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Four Quadrent Prioritizer</title>
     <link rel="stylesheet" href="../CSS/style.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li>SIGN UP</li>
-                <li>LOGIN</li>
+            <ul class="flex flex-row;">
+                <li class=""><img src="" alt="instagram icon"></li>
+                <li class=""><img src="" alt="twitter icon"></li>
+                <li class=""><img scr="" alt="facebook icon"></li>
+                <li class="nav-bar-icon">SIGN UP</li>
+                <li class="nav-bar-icon">LOGIN</li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <h1>FEATURES</h1>
-            <p></p>
+    <main class="grid grid-cols-3 grid-row-6 gap-2">
+        <div class="flex flex-row">
+            <div class="row-start-3 col-start-1">
+                <h1>FEATURES</h1>
+                <p></p>
+            </div>
+            <div class="row-start-3 col-start-3">
+                <img src="" alt="list organiser">
+            </div>
         </div>
-        <div>
-            <img src="" alt="list organiser">
-        </div>
-        <div>
-            <button>SIGN UP</button>
+        <div class="row-start-2 row-span-1 col-start-2 col-span-2 ">
+            <button id="sign-up-button">SIGN UP</button>
         </div>
     </main>
 
